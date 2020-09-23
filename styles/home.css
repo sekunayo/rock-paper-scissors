@@ -66,6 +66,8 @@ section{
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     section{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -103,20 +105,22 @@ section{
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
     .heading{
         width: 90%;
+        margin-top: 40px;
+        padding-left: 5%;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     .heading{
-        width: 90%;
+        width: 50%;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
     .heading{
-        width: 30%;
+        width: 50%;
     }
 }
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -139,8 +143,8 @@ section{
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
     .image-container{
-        width: 70px;
-        height: 70px;    }
+        width: 40px;
+        height: 40px;    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -213,7 +217,7 @@ img{
 #tap{
     color: #e5e5e5;
     font-size: 1.3rem;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .max-container{
     height: 55vh;
@@ -285,8 +289,8 @@ img{
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     .icons{
-        height: 100px;
-        width: 20%;  }
+        height: 200px;
+        width: 40%;  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -331,7 +335,7 @@ img{
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     .icon{
-        height: auto;
+        height: 100px;
         width: 30%;  }
 }
 
